@@ -1,7 +1,7 @@
 function showPassword(){
     let pwds = document.getElementById("pwds");
     let cpwds = document.getElementById("cpwds");
-    if((pwds.type === "password" && cpwds.type === "password") && "password".length <8){
+    if(pwds.type === "password" && cpwds.type === "password"){
         
 
         pwds.type="text";
